@@ -29,6 +29,7 @@ class hashTable{
     int hashFunction(int key){
         return key%size;
     }
+    
     void Insert(string k, int v) {
         int cnt = 0;
         for (int i = 0; i < k.length(); i++)
